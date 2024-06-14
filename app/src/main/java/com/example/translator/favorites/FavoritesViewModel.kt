@@ -18,6 +18,7 @@ class FavoritesViewModel(
     init {
         viewModelScope.launch {
             getFavorites()
+
         }
     }
 

@@ -104,7 +104,7 @@ fun FavoritesContent(
 
     val list = mutableListOf<String>()
     if (state != null) {
-        list.addAll(state.FavoritedTranslations)
+        list.addAll(state.FavoriteTranslations)
     }
     else{
         list.add("No translations favorited")
